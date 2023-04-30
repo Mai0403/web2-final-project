@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+header{
+    text-align: center;
+    margin-top: 30px;
+}
+header img{
+    width: 350px;
+}
+main{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+main p{
+    font-size: 20px;
+}
+main p span{
+    color: #0BDA51;
+    font-weight: bold;
+}
+main img{
+    width: 60%;
+}
+  
+/* button */
+
+.button{
+    margin-top: 30px;
+    text-align: center;
+}
+.button button{
+    width: 150px;
+    height: 60px;
+    margin: 20px;
+    border-radius: 13px;
+    background-color: black;
+    border: 2px solid #0BDA51;
+    color: #0BDA51;
+    box-shadow: 1px 1px 20px #0BDA51;
+    text-shadow: 1px 1px 20px #0BDA51;
+}
+
+.button button:hover{
+    background-color: #0BDA51;
+    color: black;
+}
+
+  

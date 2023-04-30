@@ -1,0 +1,213 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+  <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="main-nav">
+      <img src="/img/logo.png" alt="logo" style="width:250px ;">
+      <ul class="header-title">
+        <li><a href="home.html"> Home </a></li>
+        <li><a href="lastest.html"> Latest </a></li>
+        <li><a href="myList.html"> My list </a></li>
+        <li><a href="blog.html"> Blogs </a></li>
+        <li><a href="audio.html"> Audio </a></li>
+      </ul>
+
+      <div class="icon">
+        <div class="search-bar">
+          <input type="text" placeholder="Search...">
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-search"
+            viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+          </svg>
+        </div>
+
+        <div class="icons">
+          <!-- <img src="/img/profile.jpg" class="user-pic" onClick="toggleMenu()" alt=""> -->
+
+          <svg onClick="toggleMenu()" class="profile-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+            fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path fill-rule="evenodd"
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+          </svg>
+
+          <svg onClick="toggleMenu1()" class="notification-icon" xmlns="http://www.w3.org/2000/svg" width="28"
+            height="28" fill="white" class="bi bi-bell" viewBox="0 0 16 16">
+            <path
+              d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+          </svg>
+        </div>
+
+      </div>
+
+    </nav>
+
+    <!-- Javascript added -->
+
+    <div class="sub-menu-wrap" id="subMenu">
+      <div class="sub-menu">
+        <div class="user-info">
+          <img src="/img/userProfile.png" alt="">
+          <h3>Sreymai Phou</h3>
+        </div>
+        <hr>
+
+        <a href="#" class="sub-menu-link">
+          <img src="/img/profile.png" alt="">
+          <p>Edit Profile</p>
+          <span>></span>
+        </a>
+        <a href="#" class="sub-menu-link">
+          <img src="/img/setting.png" alt="">
+          <p>Setting & Provicy</p>
+          <span>></span>
+        </a>
+        <a href="#" class="sub-menu-link">
+          <img src="/img/help.png" alt="">
+          <p>Help & Support</p>
+          <span>></span>
+        </a>
+        <a href="#" class="sub-menu-link">
+          <img src="/img/logout.png" alt="">
+          <p>Log Out</p>
+          <span>></span>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="sub-menu-wrap1" id="subMenu1">
+      <div class="sub-menu1">
+        <p>You have <span>0</span> notification!</p>
+      </div>
+    </div>
+
+  </header>
+  <div class="clearfix"></div>
+
+  <section>
+    <div style="margin-left: 40px;">
+      <img src="/img/newcoming.jpg" class="newcoming" alt="new coming!">
+
+      <img src="/img/banner1.jpg" class="banner1" alt="book tittle">
+
+      <div class="button">
+        <a href="/pdf/pdf2-3.html"><button style="cursor: pointer;"><strong>READ NOW</strong></button></a>
+        <a href="info.html"><button style="cursor: pointer;"><strong>MORE INFO</strong></button></a>
+      </div>
+    </div>
+    <div>
+      <img src="/img/banner2.jpg" class="banner2" alt="book image">
+    </div>
+  </section>
+
+  <!-- Book dislay  -->
+  <main>
+    <h2>Tending Now</h2>
+    <ul class="bookimg">
+      <li><a href="/pdf/pdf1-1.html"><img src="/img/r1-1.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf1-2.html"><img src="/img/r1-2.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf1-3.html"><img src="/img/r1-3.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf1-4.html"><img src="/img/r1-4.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf1-5.html"><img src="/img/r1-5.jpg" alt="book cover" class="book-cover"></a></li>
+    </ul>
+
+    <h2>Action and Thriller</h2>
+    <ul class="bookimg">
+      <li><a href="/pdf/pdf2-1.html"><img src="/img/r2-1.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf2-2.html"><img src="/img/r2-2.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf2-3.html"><img src="/img/r2-3.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf2-4.html"><img src="/img/r2-4.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf2-5.html"><img src="/img/r2-5.jpg" alt="book cover" class="book-cover"></a></li>
+    </ul>
+
+    <h2>BL series</h2>
+    <ul class="bookimg">
+      <li><a href="/pdf/pdf3-1.html"><img src="/img/r3-1.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf3-2.html"><img src="/img/r3-2.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf3-3.html"><img src="/img/r3-3.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf3-4.html"><img src="/img/r3-4.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf3-5.html"><img src="/img/r3-5.jpg" alt="book cover" class="book-cover"></a></li>
+    </ul>
+
+    <h2>Khmer Romance Novel</h2>
+    <ul class="bookimg">
+      <li><a href="/pdf/pdf4-1.html"><img src="/img/r4-1.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf4-2.html"><img src="/img/r4-2.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf4-3.html"><img src="/img/r4-3.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf4-4.html"><img src="/img/r4-4.jpg" alt="book cover" class="book-cover"></a></li>
+      <li><a href="/pdf/pdf4-5.html"><img src="/img/r4-5.jpg" alt="book cover" class="book-cover"></a></li>
+    </ul>
+    <div class="open-space"></div>
+
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>quick links</h4>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">lastest</a></li>
+            <li><a href="#">my list</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>contact info</h4>
+          <ul>
+            <li><a href="#">+885-16-377-679</a></li>
+            <li><a href="#"><span>sreymai.phou@gmail.com</span></a></li>
+            <li><a href="#">Phnom Penh, Cambodia</a></li>
+          </ul>
+        </div>
+
+        <div class="social-media">
+          <h4> Follow Us </h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <hr>
+    <div class="credit">
+      <p>Created By <span>AUPP Student</span> | All Rights Reserved! </p>
+    </div>
+  </footer>
+  <script src="/javascript/home.js"></script>
+</body>
+
+</html>

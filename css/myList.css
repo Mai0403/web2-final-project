@@ -1,0 +1,142 @@
+/* header */
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+nav {
+  background-color: black;
+  height: 80px;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+  margin-bottom: 20%;
+}
+
+img {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.main-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  position: fixed;
+  margin-top: 0;
+}
+
+nav li {
+  margin-right: 30px;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 30px;
+  padding-right: 20px;
+}
+
+/* search bar */
+.search-bar {
+  margin-left: 50px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  width: 200px;
+  height: 35px;
+  border-radius: 10rem;
+
+}
+
+.search-bar input {
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  width: 9rem;
+}
+
+.search-bar svg {
+  margin-top: 8px;
+}
+
+/* icon */
+.icon {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  margin-top: 20px;
+  text-align: left;
+}
+
+.svg-icon {
+  margin-left: 30px;
+}
+
+svg:hover {
+  fill: #0BDA51;
+}
+
+/* navication */
+nav ul {
+  white-space: nowrap;
+  margin: 0 auto;
+}
+
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li a:hover {
+  color: #0BDA51;
+}
+
+/* --------------------------------------------- */
+
+/* Book list */
+main {
+  padding-top: 10%;
+}
+
+h2 {
+  color: white;
+  margin-left: 10%;
+}
+
+.bookimg {
+  text-align: center;
+  margin: 50px;
+  white-space: nowrap;
+
+}
+
+.bookimg li {
+  display: inline-block;
+  width: 15%;
+  margin-right: 50px;
+}
+
+.book-cover {
+  width: 250px;
+  height: 295px;
+  border: 1px solid wheat;
+  box-shadow: 10px 10px 5px whitesmoke;
+  transition: 0.5s;
+}
+
+.bookimg li img {
+  max-width: 100%;
+}
+
+.book-cover {
+  width: 250px;
+  height: 295px;
+  transition: 0.5s;
+}
+
+.book-cover:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
